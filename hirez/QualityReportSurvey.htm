@@ -1,0 +1,581 @@
+<html>
+
+<head>
+<meta name="Author" content="GreenHouse Design, Inc. - www.ghdweb.com">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>MWC - Water Quality Report Survey</title>
+<!-- ImageReady Preload Script (waves800v8Top.psd) -->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		menu_03_over = newImage("images/menu_03-over.gif");
+		menu_04_over = newImage("images/menu_04-over.gif");
+		menu_05_over = newImage("images/menu_05-over.gif");
+		menu_06_over = newImage("images/menu_06-over.gif");
+		menu_07_over = newImage("images/menu_07-over.gif");
+		menu_08_over = newImage("images/menu_08-over.gif");
+		menu_09_over = newImage("images/menu_09-over.gif");
+		links_03_over = newImage("images/links_03-over.gif");
+		links_04_over = newImage("images/links_04-over.gif");
+		links_05_over = newImage("images/links_05-over.gif");
+		links_06_over = newImage("images/links_06-over.gif");
+		links_07_over = newImage("images/links_07-over.gif");
+		links_08_over = newImage("images/links_08-over.gif");
+		links_09_over = newImage("images/links_09-over.gif");
+		preloadFlag = true;
+	}
+}
+
+function checkrequired(which) 
+	{
+	var pass=true;
+	if (document.images) 
+		{
+		for (i=0;i<which.length;i++) 
+			{
+			var tempobj=which.elements[i];
+			if (tempobj.name.substring(0,8)=="required") 
+				{
+				if (((tempobj.type=="text"||tempobj.type=="textarea")&&
+				tempobj.value=='')||(tempobj.type.toString().charAt(0)=="s"&&
+				tempobj.selectedIndex==0)||(tempobj.type.toString().charAt(0)=="c"&&
+				tempobj.checked==0)) 
+					{
+					pass=false;
+					break;
+         					}
+      				}
+   			}
+		}
+
+	if (!pass) 
+		{
+		shortFieldName=tempobj.name.substring(8,30);
+		if(shortFieldName == "Agreement")
+			{
+			alert("Please make sure to read the terms and check the Checkbox.");
+			}
+		else
+			{
+			alert("Please make sure the "+shortFieldName+" field was properly completed.");
+			}
+		return false;
+		}
+	else
+		return true;
+	}
+
+// -->
+</SCRIPT>
+<!-- End Preload Script -->
+<style>
+<!--
+h1
+	{margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-style:italic;
+	text-decoration:underline;
+	text-underline:single}
+-->
+</style>
+</head>
+
+<body ONLOAD="preloadImages();">
+
+<A NAME="Top"></A><table border="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="800" id="AutoNumber1" cellpadding="0">
+  <tr>
+    <td width="800">
+
+    <!-- ImageReady Slices (waves800v8Top.psd) -->
+<TABLE WIDTH=800 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=9>
+			<IMG SRC="images/menu_01.gif" WIDTH=800 HEIGHT=125 BORDER=0 USEMAP="#menu_01_Map"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/menu_02.gif" WIDTH=16 HEIGHT=38></TD>
+		<TD>
+			<A HREF="aboutUs.htm"
+				ONMOUSEOVER="changeImages('menu_03', 'images/menu_03-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('menu_03', 'images/menu_03.gif'); return true;">
+				<IMG NAME="menu_03" SRC="images/menu_03.gif" WIDTH=82 HEIGHT=22 BORDER=0></A></TD>
+		<TD>
+			<A HREF="news.htm"
+				ONMOUSEOVER="changeImages('menu_04', 'images/menu_04-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('menu_04', 'images/menu_04.gif'); return true;">
+				<IMG NAME="menu_04" SRC="images/menu_04.gif" WIDTH=68 HEIGHT=22 BORDER=0></A></TD>
+		<TD>
+			<A HREF="customerService.htm"
+				ONMOUSEOVER="changeImages('menu_05', 'images/menu_05-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('menu_05', 'images/menu_05.gif'); return true;">
+				<IMG NAME="menu_05" SRC="images/menu_05.gif" WIDTH=140 HEIGHT=22 BORDER=0></A></TD>
+		<TD>
+			<A HREF="shareholderInfo.htm"
+				ONMOUSEOVER="changeImages('menu_06', 'images/menu_06-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('menu_06', 'images/menu_06.gif'); return true;">
+				<IMG NAME="menu_06" SRC="images/menu_06.gif" WIDTH=145 HEIGHT=22 BORDER=0></A></TD>
+		<TD>
+			<A HREF="waterQuality.htm"
+				ONMOUSEOVER="changeImages('menu_07', 'images/menu_07-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('menu_07', 'images/menu_07.gif'); return true;">
+				<IMG NAME="menu_07" SRC="images/menu_07.gif" WIDTH=125 HEIGHT=22 BORDER=0></A></TD>
+		<TD>
+			<A HREF="aboutH2o.htm"
+				ONMOUSEOVER="changeImages('menu_08', 'images/menu_08-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('menu_08', 'images/menu_08.gif'); return true;">
+				<IMG NAME="menu_08" SRC="images/menu_08.gif" WIDTH=108 HEIGHT=22 BORDER=0></A></TD>
+		<TD>
+			<A HREF="contactUs.htm"
+				ONMOUSEOVER="changeImages('menu_09', 'images/menu_09-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('menu_09', 'images/menu_09.gif'); return true;">
+				<IMG NAME="menu_09" SRC="images/menu_09.gif" WIDTH=98 HEIGHT=22 BORDER=0></A></TD>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/menu_10.gif" WIDTH=18 HEIGHT=38></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=7>
+			<IMG SRC="images/menu_11.gif" WIDTH=766 HEIGHT=16></TD>
+	</TR>
+</TABLE>
+
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="800" id="AutoNumber2" height="100%">
+  <tr>
+    <td width="36" height="100%">
+    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="36" id="AutoNumber3" height="100%">
+  <tr>
+    <td width="32" bgcolor="#005E9A"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="1" bgcolor="#406F8D"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="1" bgcolor="#808080"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="1" bgcolor="#C0C0C0"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="1"><img src="images/empty.gif" width="1" height="1"></td>
+  </tr>
+</table>
+</td>
+    <td width="678" height="100%" valign="top">
+
+    <table border="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" width="727" id="AutoNumberCONTENT" height="100%">
+      <tr>
+        <td width="30">&nbsp;</td>
+        <td width="667">&nbsp;</td>
+        <td width="30">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="30">&nbsp;</td>
+        <td width="667">        
+        
+<table border="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" width="628" id="AutoNumberLCForm" height="100%">
+      <tr>
+        <td width="568">
+        <table border="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" width="610" id="AutoNumber3" height="127">
+          <tr>
+            <td width="606" valign="top" height="16"><p>
+            <p>
+                        
+			
+			<p>
+            <span style="font-size: 10.0pt; font-family: Arial; color: #000066">
+            <b>Welcome!<br>
+            </b><br>
+            Thank you for taking the time to give us your valuable input on our 
+            2004 Water Quality Report.&nbsp; Your feedback will help Middlesex Water 
+            assess its water quality communications.&nbsp; Please complete the survey 
+            below:</span></p>
+            <p>
+            <span style="font-size: 10.0pt; font-family: Arial; color: #000066">
+            Please 
+            check YES or NO:</span></p>
+		    
+
+<FORM ACTION="http://oak.he.net/cgi-bin/cgiemail/~mswater/SurveyTemp.txt" METHOD="POST" ENCTYPE="application/x-www-form-urlencoded" onSubmit="return checkrequired(this)" 
+NAME="Contact form" style="font-family: Arial; font-size: 10pt">
+<P><INPUT TYPE="HIDDEN" NAME="success" SIZE="-1" VALUE="http://www.middlesexwater.com/hirez/formok.htm">
+
+              	
+      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%">
+        <tr>
+          <td width="3%">&nbsp;</td>
+          <td width="65%">
+          <span style="font-size: 10.0pt; font-family: Arial; color: #000066">
+          1)&nbsp; Did you read the Middlesex Water Annual Water Quality Report?</span></td>
+          <td width="17%"><font face="Arial">
+          <input type="radio" value="Yes" name="Question1"><font size="2">Yes&nbsp;&nbsp;</font><input type="radio" name="Question1" value="No"><font size="2">&nbsp;No</font></font></td>
+          <td width="2%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="3%">&nbsp;</td>
+          <td width="65%">
+            <span style="font-size: 10.0pt; font-family: Arial; color: #000066">
+            2)&nbsp; Did you find the information helpful to you as a water 
+          consumer?</span></td>
+          <td width="17%"><font face="Arial">
+          <input type="radio" value="Yes" name="Question2"><font size="2">Yes&nbsp;&nbsp;</font><input type="radio" name="Question2" value="No"><font size="2">&nbsp;No</font></font></td>
+          <td width="2%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="3%">&nbsp;</td>
+          <td width="65%">
+            <span style="font-size: 10.0pt; font-family: Arial; color: #000066">
+            3)&nbsp; Did you find the information in the report well organized?</span></td>
+          <td width="17%"><font face="Arial">
+          <input type="radio" value="Yes" name="Question3"><font size="2">Yes&nbsp;&nbsp;</font><input type="radio" name="Question3" value="No"><font size="2">&nbsp;No</font></font></td>
+          <td width="2%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="3%">&nbsp;</td>
+          <td width="65%">
+            <span style="font-size: 10.0pt; font-family: Arial; color: #000066">
+            4)&nbsp; Did you find the information easy to read and understand?</span></td>
+          <td width="17%"><font face="Arial">
+          <input type="radio" value="Yes" name="Question4"><font size="2">Yes&nbsp;&nbsp;</font><input type="radio" name="Question4" value="No"><font size="2">&nbsp;No</font></font></td>
+          <td width="2%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="3%">&nbsp;</td>
+          <td width="65%">
+            <span style="font-size: 10.0pt; font-family: Arial; color: #000066">
+            5)&nbsp; Would you keep this report for future reference?</span></td>
+          <td width="17%"><font face="Arial">
+          <input type="radio" value="Yes" name="Question5"><font size="2">Yes&nbsp;&nbsp;</font><input type="radio" name="Question5" value="No"><font size="2">&nbsp;No</font></font></td>
+          <td width="2%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="3%">&nbsp;</td>
+          <td width="65%">
+          <span style="FONT-SIZE: 10pt; COLOR: #000066; FONT-FAMILY: Arial">6) 
+          &nbsp;Do you usually read information that accompanies your water bill?</span></td>
+          <td width="17%"><font face="Arial">
+          <input type="radio" value="Yes" name="Question6"><font size="2">Yes&nbsp;&nbsp;</font><input type="radio" name="Question6" value="No"><font size="2">&nbsp;No</font></font></td>
+          <td width="2%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="3%">&nbsp;</td>
+          <td width="65%">
+            <p>
+            <span style="font-size: 10.0pt; font-family: Arial; color: #000066">
+            7) &nbsp;Are you aware that the water quality report mailed to your home 
+            can also be found on this website?</span></p>
+            </td>
+          <td width="17%" valign="top"><font face="Arial">
+          <input type="radio" value="Yes" name="Question7"><font size="2">Yes&nbsp;&nbsp;</font><input type="radio" name="Question7" value="No"><font size="2">&nbsp;No</font></font></td>
+          <td width="2%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="3" width="100%">
+            <span style="font-size: 10.0pt; font-family: Arial; color: #000066">
+            <br>
+            On a scale of 1-5 (1 least favorable and 5 most favorable) please 
+            rate the following questions:<br>
+&nbsp;</span></td>
+          <td width="2%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="3%">&nbsp;</td>
+          <td width="65%">
+            <span style="font-size: 10.0pt; font-family: Arial; color: #000066">
+            8) How would you rate the quality of drinking water in your 
+          community?</span></td>
+          <td width="17%">
+          <p align="center"><select size="1" name="Question8">
+          <option value="1" selected>1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          </select></td>
+          <td width="2%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="3%">&nbsp;</td>
+          <td width="65%">
+            <span style="font-size: 10.0pt; font-family: Arial; color: #000066">
+            9) Do you trust your water company in its role as a protector of 
+          public health?</span></td>
+          <td width="17%">
+          <p align="center"><select size="1" name="Question9">
+          <option value="1" selected>1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          </select></td>
+          <td width="2%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="3%">&nbsp;</td>
+          <td width="65%">
+            <span style="font-size: 10.0pt; font-family: Arial; color: #000066">
+            10) Overall, how satisfied are you as a customer of Middlesex Water 
+          Company?</span></td>
+          <td width="17%">
+          <p align="center"><select size="1" name="Question10">
+          <option value="1" selected>1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          </select></td>
+          <td width="2%">&nbsp;</td>
+        </tr>
+</table>
+		    <TABLE BORDER="0" CELLSPACING="1" STYLE="border-collapse: collapse" BORDERCOLOR="#111111" WIDTH="100%" ID="AutoNumber1" HEIGHT="218">
+              <tr>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19" colspan="2">
+                <font face="Arial" size="2" color="#000066">&nbsp;<br>
+                Fields in </font>
+                <font face="Arial" size="2" color="#FF0000">RED</font><font face="Arial" size="2" color="#000066"> 
+                are required<br>
+&nbsp;</font></TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <BR></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </tr>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <FONT FACE="Arial" SIZE="2" COLOR="#FF0000">Name</FONT></TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <INPUT NAME="requiredName" SIZE="30" STYLE="float: right"><BR></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <FONT FACE="Arial" SIZE="2" COLOR="#FF0000">Address</FONT></TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <INPUT NAME="requiredAddress" SIZE="30" STYLE="float: right"><BR></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <FONT FACE="Arial" SIZE="2" COLOR="#FF0000">City</FONT></TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <INPUT NAME="requiredCity" SIZE="30" STYLE="float: right"><BR></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <TABLE BORDER="0" CELLSPACING="0" STYLE="border-collapse: collapse" BORDERCOLOR="#111111" WIDTH="100%" ID="AutoNumber3" CELLPADDING="0">
+                  <TR>
+                    <TD WIDTH="50%">
+                <FONT FACE="Arial" SIZE="2" COLOR="#FF0000">State</FONT><BR></TD>
+                    <TD WIDTH="50%">
+                    </TD>
+                    <TD WIDTH="50%">&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+                  </TR>
+                </TABLE>
+                </TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <TABLE BORDER="0" CELLSPACING="0" STYLE="border-collapse: collapse" BORDERCOLOR="#111111" WIDTH="100%" ID="AutoNumber2" CELLPADDING="0">
+                  <TR>
+                    <TD WIDTH="25%">
+                    <P ALIGN="left">
+                    <INPUT NAME="requiredState" SIZE="2" STYLE="float: left"></TD>
+                    <TD WIDTH="75%">
+                <P ALIGN="center">
+                <FONT FACE="Arial" SIZE="2" COLOR="#FF0000">Zip</FONT></TD>
+                    <TD WIDTH="50%">
+                    <INPUT NAME="requiredZip" SIZE="5" STYLE="float: right"><BR></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="8"></TD>
+                <TD WIDTH="21%" HEIGHT="8">
+                <FONT FACE="Arial" SIZE="2" COLOR="#FF0000">Daytime Phone</FONT></TD>
+                <TD WIDTH="23%" HEIGHT="8">
+                <INPUT NAME="requiredPhone" SIZE="30" STYLE="float: right"><BR></TD>
+                <TD WIDTH="51%" HEIGHT="8"></TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <FONT FACE="Arial" SIZE="2" COLOR="#FF0000">Email</FONT></TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <INPUT NAME="requiredemail" SIZE="30" STYLE="float: right"></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <font face="Arial" size="2" color="#000066"><br>
+                Comments:</font></TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <BR></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="19%" HEIGHT="19" COLSPAN="3">
+                <p align="center"><font face="Arial" size="2" color="#000066">&nbsp;<textarea rows="5" name="Comments" cols="50"></textarea></font></TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="19%" HEIGHT="19" COLSPAN="3">
+            <p>
+            <span style="font-size: 10.0pt; font-family: Arial; color: #000066">
+            Thank you for taking the time to complete this survey.&nbsp; Your 
+            feedback is important to us.&nbsp; </span></p>
+            <p>
+            <span style="font-size: 10.0pt; font-family: Arial; color: #000066">
+            The first 100 respondents to complete and submit this survey in its 
+            entirety will receive a free token gift from the Company.&nbsp;</span></p>
+		    
+
+                </TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19" VALIGN="bottom">&nbsp;</TD>
+                <TD WIDTH="23%" HEIGHT="19" VALIGN="bottom">&nbsp;</TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19" VALIGN="bottom"><P ALIGN="left">
+                <INPUT TYPE="submit" VALUE="Submit" NAME="B1" STYLE="float: right"></P></TD>
+                <TD WIDTH="23%" HEIGHT="19" VALIGN="bottom"><INPUT TYPE="reset" VALUE="Reset" NAME="B2"></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+            </TABLE>
+                        </FORM>
+
+
+</td>
+            </td>
+          </tr>
+        </table>        </td>
+      </tr>
+      </table>
+        
+        
+        </td>
+        <td width="30">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="30">&nbsp;</td>
+        <td width="667"><p>&nbsp;</td>
+        <td width="30">&nbsp;</td>
+      </tr>
+    </table>
+    
+    </td>
+    
+    <td width="36" height="100%">
+    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="36" id="AutoNumber4" height="100%">
+  <tr>
+    <td width="2"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="1" bgcolor="#C0C0C0"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="1" bgcolor="#808080"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="1" bgcolor="#406F8D"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="31" bgcolor="#005E9A"><img src="images/empty.gif" width="1" height="1"></td>
+  </tr>
+</table>
+ </td>
+  </tr>
+  </table>
+
+
+	</td>
+  </tr>
+  <tr>
+    <td width="800">
+    <!-- ImageReady Slices (waves800v8Buttom.psd) -->
+<TABLE WIDTH=800 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=9>
+			<IMG SRC="images/links_01.gif" WIDTH=800 HEIGHT=12></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/links_02.gif" WIDTH=133 HEIGHT=23></TD>
+		<TD>
+			<A HREF="aboutUs.htm"
+				ONMOUSEOVER="changeImages('links_03', 'images/links_03-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('links_03', 'images/links_03.gif'); return true;">
+				<IMG NAME="links_03" SRC="images/links_03.gif" WIDTH=57 HEIGHT=17 BORDER=0></A></TD>
+		<TD>
+			<A HREF="news.htm"
+				ONMOUSEOVER="changeImages('links_04', 'images/links_04-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('links_04', 'images/links_04.gif'); return true;">
+				<IMG NAME="links_04" SRC="images/links_04.gif" WIDTH=43 HEIGHT=17 BORDER=0></A></TD>
+		<TD>
+			<A HREF="customerService.htm"
+				ONMOUSEOVER="changeImages('links_05', 'images/links_05-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('links_05', 'images/links_05.gif'); return true;">
+				<IMG NAME="links_05" SRC="images/links_05.gif" WIDTH=104 HEIGHT=17 BORDER=0></A></TD>
+		<TD>
+			<A HREF="shareholderInfo.htm"
+				ONMOUSEOVER="changeImages('links_06', 'images/links_06-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('links_06', 'images/links_06.gif'); return true;">
+				<IMG NAME="links_06" SRC="images/links_06.gif" WIDTH=102 HEIGHT=17 BORDER=0></A></TD>
+		<TD>
+			<A HREF="waterQuality.htm"
+				ONMOUSEOVER="changeImages('links_07', 'images/links_07-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('links_07', 'images/links_07.gif'); return true;">
+				<IMG NAME="links_07" SRC="images/links_07.gif" WIDTH=88 HEIGHT=17 BORDER=0></A></TD>
+		<TD>
+			<A HREF="aboutH2o.htm"
+				ONMOUSEOVER="changeImages('links_08', 'images/links_08-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('links_08', 'images/links_08.gif'); return true;">
+				<IMG NAME="links_08" SRC="images/links_08.gif" WIDTH=73 HEIGHT=17 BORDER=0></A></TD>
+		<TD>
+			<A HREF="contactUs.htm"
+				ONMOUSEOVER="changeImages('links_09', 'images/links_09-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('links_09', 'images/links_09.gif'); return true;">
+				<IMG NAME="links_09" SRC="images/links_09.gif" WIDTH=71 HEIGHT=17 BORDER=0></A></TD>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/links_10.gif" WIDTH=129 HEIGHT=23></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=7>
+			<IMG SRC="images/links_11.gif" WIDTH=538 HEIGHT=6></TD>
+	</TR>
+</TABLE>
+<!-- End ImageReady Slices -->
+
+
+	</td>
+  </tr>
+</table>
+<MAP NAME="menu_01_Map">
+<AREA SHAPE="rect" ALT="Go to MWC Homepage" COORDS="75,11,222,81" HREF="index.htm">
+</MAP>
+<!-- End ImageReady Slices -->
+</body>
+
+</html>

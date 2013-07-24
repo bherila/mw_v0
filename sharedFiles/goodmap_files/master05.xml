@@ -1,0 +1,51 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:slidetransition advancetime="1227000" effect="zoom" direction="out" flag="1"/>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="15"/>
+ </o:shapelayout><p:colorscheme
+  colors="#0000CC,#CCECFF,#000066,#CCFFFF,#CC99FF,#9999FF,#99CCFF,#0066FF"/>
+ <v:background id="_x0000_s15361" o:bwmode="white" o:targetscreensize="800,600">
+  <v:fill src="master05_image001.jpg" o:title="whirlpool" type="frame"/>
+ </v:background><p:shaperange id="_x0000_s15362">
+  <v:shapetype id="_x0000_s15362" style='position:absolute;left:18pt;top:36pt;
+   width:612pt;height:90pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#c9f [4]" stroked="f" strokecolor="#ccecff [1]">
+   <v:fill o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="title"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s15363">
+  <v:shapetype id="_x0000_s15363" style='position:absolute;left:54pt;top:156pt;
+   width:612pt;height:324pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m,l,21600r21600,l21600,xe" filled="f" fillcolor="#c9f [4]" stroked="f"
+   strokecolor="#ccecff [1]">
+   <v:fill o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="body" position="1"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s15368">
+  <v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
+   <v:stroke joinstyle="miter"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+  </v:shapetype><v:shape id="_x0000_s15368" type="#_x0000_t202" style='position:absolute;
+   left:450pt;top:486pt;width:240pt;height:31.125pt' o:userdrawn="t" filled="f"
+   fillcolor="#c9f [4]" stroked="f" strokecolor="#ccecff [1]">
+   <v:fill color2="#00c [0]"/>
+   <v:shadow color="#006 [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape><v:shape id="_x0000_s15370" type="#_x0000_t202" style='position:absolute;
+   left:18pt;top:486pt;width:246pt;height:36pt' o:userdrawn="t" filled="f"
+   fillcolor="#c9f [4]" stroked="f" strokecolor="#ccecff [1]">
+   <v:fill color2="#00c [0]"/>
+   <v:shadow color="#006 [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape></p:shaperange>
+</xml>

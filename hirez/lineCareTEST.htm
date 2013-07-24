@@ -1,0 +1,669 @@
+<html>
+
+<head>
+<meta name="Author" content="GreenHouse Design, Inc. - www.ghdweb.com">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>MWC - LineCare</title>
+<!-- ImageReady Preload Script (waves800v8Top.psd) -->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		menu_03_over = newImage("images/menu_03-over.gif");
+		menu_04_over = newImage("images/menu_04-over.gif");
+		menu_05_over = newImage("images/menu_05-over.gif");
+		menu_06_over = newImage("images/menu_06-over.gif");
+		menu_07_over = newImage("images/menu_07-over.gif");
+		menu_08_over = newImage("images/menu_08-over.gif");
+		menu_09_over = newImage("images/menu_09-over.gif");
+		links_03_over = newImage("images/links_03-over.gif");
+		links_04_over = newImage("images/links_04-over.gif");
+		links_05_over = newImage("images/links_05-over.gif");
+		links_06_over = newImage("images/links_06-over.gif");
+		links_07_over = newImage("images/links_07-over.gif");
+		links_08_over = newImage("images/links_08-over.gif");
+		links_09_over = newImage("images/links_09-over.gif");
+		preloadFlag = true;
+	}
+}
+
+function checkrequired(which) 
+	{
+	var pass=true;
+	if (document.images) 
+		{
+		for (i=0;i<which.length;i++) 
+			{
+			var tempobj=which.elements[i];
+			if (tempobj.name.substring(0,8)=="required") 
+				{
+				if (((tempobj.type=="text"||tempobj.type=="textarea")&&
+				tempobj.value=='')||(tempobj.type.toString().charAt(0)=="s"&&
+				tempobj.selectedIndex==0)||(tempobj.type.toString().charAt(0)=="c"&&
+				tempobj.checked==0)) 
+					{
+					pass=false;
+					break;
+         					}
+      				}
+   			}
+		}
+
+	if (!pass) 
+		{
+		shortFieldName=tempobj.name.substring(8,30);
+		if(shortFieldName == "Agreement")
+			{
+			alert("Please make sure to read the terms and check the Checkbox.");
+			}
+		else
+			{
+			alert("Please make sure the "+shortFieldName+" field was properly completed.");
+			}
+		return false;
+		}
+	else
+		return true;
+	}
+// -->
+</SCRIPT>
+<!-- End Preload Script -->
+</head>
+
+<body ONLOAD="preloadImages();">
+
+<table border="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="800" id="AutoNumber1" cellpadding="0">
+  <tr>
+    <td width="800" colspan="3">
+    
+    <!-- ImageReady Slices (waves800v8Top.psd) -->
+<TABLE WIDTH=800 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=9>
+			<IMG SRC="images/menu_01.gif" WIDTH=800 HEIGHT=125 BORDER=0 USEMAP="#menu_01_Map"></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/menu_02.gif" WIDTH=16 HEIGHT=38></TD>
+		<TD>
+			<A HREF="aboutUs.htm"
+				ONMOUSEOVER="changeImages('menu_03', 'images/menu_03-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('menu_03', 'images/menu_03.gif'); return true;">
+				<IMG NAME="menu_03" SRC="images/menu_03.gif" WIDTH=82 HEIGHT=22 BORDER=0></A></TD>
+		<TD>
+			<A HREF="news.htm"
+				ONMOUSEOVER="changeImages('menu_04', 'images/menu_04-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('menu_04', 'images/menu_04.gif'); return true;">
+				<IMG NAME="menu_04" SRC="images/menu_04.gif" WIDTH=68 HEIGHT=22 BORDER=0></A></TD>
+		<TD>
+			<A HREF="customerService.htm"
+				ONMOUSEOVER="changeImages('menu_05', 'images/menu_05-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('menu_05', 'images/menu_05.gif'); return true;">
+				<IMG NAME="menu_05" SRC="images/menu_05.gif" WIDTH=140 HEIGHT=22 BORDER=0></A></TD>
+		<TD>
+			<A HREF="shareholderInfo.htm"
+				ONMOUSEOVER="changeImages('menu_06', 'images/menu_06-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('menu_06', 'images/menu_06.gif'); return true;">
+				<IMG NAME="menu_06" SRC="images/menu_06.gif" WIDTH=145 HEIGHT=22 BORDER=0></A></TD>
+		<TD>
+			<A HREF="waterQuality.htm"
+				ONMOUSEOVER="changeImages('menu_07', 'images/menu_07-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('menu_07', 'images/menu_07.gif'); return true;">
+				<IMG NAME="menu_07" SRC="images/menu_07.gif" WIDTH=125 HEIGHT=22 BORDER=0></A></TD>
+		<TD>
+			<A HREF="aboutH2o.htm"
+				ONMOUSEOVER="changeImages('menu_08', 'images/menu_08-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('menu_08', 'images/menu_08.gif'); return true;">
+				<IMG NAME="menu_08" SRC="images/menu_08.gif" WIDTH=108 HEIGHT=22 BORDER=0></A></TD>
+		<TD>
+			<A HREF="contactUs.htm"
+				ONMOUSEOVER="changeImages('menu_09', 'images/menu_09-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('menu_09', 'images/menu_09.gif'); return true;">
+				<IMG NAME="menu_09" SRC="images/menu_09.gif" WIDTH=98 HEIGHT=22 BORDER=0></A></TD>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/menu_10.gif" WIDTH=18 HEIGHT=38></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=7>
+			<IMG SRC="images/menu_11.gif" WIDTH=766 HEIGHT=16></TD>
+	</TR>
+</TABLE>
+
+    
+    </td>
+  </tr>
+  <tr>
+    <td width="36" height="100%">
+    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="36" id="AutoNumber3" height="100%">
+  <tr>
+    <td width="32" bgcolor="#005E9A"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="1" bgcolor="#406F8D"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="1" bgcolor="#808080"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="1" bgcolor="#C0C0C0"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="1"><img src="images/empty.gif" width="1" height="1"></td>
+  </tr>
+</table>
+    </td>
+    <td width="728">
+    <table border="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber2" height="100%">
+      <tr>
+        <td width="15">&nbsp;</td>
+        <td width="88%"><font face="Arial" color="#000066"><b>LineCare</b><sup><font size="2">SM</font></sup></font><p>
+        <font face="Arial" color="#000066" size="2"><b>WHAT YOU DON’T KNOW CAN 
+        COST YOU!</b><br>
+        <span style="FONT-WEIGHT: 400">Protect yourself and your property with 
+        LineCare<sup>SM</sup><br>
+        </span></font><font color="#000066"><br></font>
+        <font face="Arial" color="#000066" size="2">
+        <span style="FONT-WEIGHT: 400">Did you know that if there is a problem with your in home shut-off valve or a leak on the service line running from the curbstop to your home  that <b>YOU</b> are responsible for those repairs?</span></font></td>
+        <td width="25">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="15">&nbsp;</td>
+        <td width="88%">
+        <table border="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" width="642" id="AutoNumber3" height="141">
+          <tr>
+            <td width="635" valign="top" height="16"><p>
+            <p>
+            <p>
+            <FONT FACE="Arial" SIZE="2" COLOR="#000066">
+            <IMG BORDER="0" SRC="images/house.gif" width="600" height="500"></FONT></td>
+            </td>
+          </tr>
+        </table>
+        <table border="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" width="642" id="AutoNumber3" height="127">
+          <tr>
+            <td width="310" valign="top" height="105">
+        <p>
+        <FONT FACE="Arial" SIZE="2" COLOR="#000066">
+            <SPAN STYLE="font-weight: 400">The average repair or replacement of a single leaking service line 
+            can cost over $3,000. And, most homeowner insurance policies don’t 
+            offer coverage for this type of repair work.<BR>
+            </SPAN>
+            <BR>
+            <B>DON’T GET CAUGHT OFF GUARD! <A HREF="#terms">APPLY ONLINE NOW</A> FOR LineCare<SUP>SM</SUP></B>
+            <SPAN STYLE="font-weight: 400">, a water service line maintenance plan offered by Utility Service 
+            Affiliates (USA) Inc., a subsidiary of Middlesex Water Company.</SPAN><BR>
+            <BR>
+            <SPAN STYLE="font-weight: 700">Consider this…A typical leaking service line involves:</SPAN></FONT><p>
+            <UL>
+            <LI><SPAN STYLE="font-weight: 400"><FONT FACE="Arial" COLOR="#000066">
+                &nbsp;</FONT><FONT FACE="Arial" SIZE="2" COLOR="#000066">Hiring a 
+                plumber to locate, dig up and repair or replace the leaking pipe<BR>
+                </FONT><FONT FACE="Arial" COLOR="#000066">
+                &nbsp;</FONT></SPAN><FONT FACE="Arial" SIZE="2" COLOR="#000066"><SPAN STYLE="font-weight: 400">Calling 
+                your water supplier to disconnect/shutoff the water supply</SPAN></FONT><LI><SPAN STYLE="font-weight: 400"><FONT FACE="Arial" COLOR="#000066">
+                &nbsp;</FONT></SPAN><FONT FACE="Arial" SIZE="2" COLOR="#000066"><SPAN STYLE="font-weight: 400">Scheduling 
+                a qualified plumber to handle repairs</SPAN></FONT><LI><SPAN STYLE="font-weight: 400"><FONT FACE="Arial" COLOR="#000066">
+                &nbsp;</FONT></SPAN><FONT FACE="Arial" SIZE="2" COLOR="#000066"><SPAN STYLE="font-weight: 400">Planning 
+                repair work appointments around your busy schedule</SPAN></FONT><LI><SPAN STYLE="font-weight: 400"><FONT FACE="Arial" COLOR="#000066">
+                &nbsp;</FONT></SPAN><FONT FACE="Arial" SIZE="2" COLOR="#000066"><SPAN STYLE="font-weight: 400">Contracting 
+                an experienced landscaper to restore the lawn or sidewalk</SPAN></FONT><LI><SPAN STYLE="font-weight: 400"><FONT FACE="Arial" COLOR="#000066">
+                &nbsp;</FONT></SPAN><FONT FACE="Arial" SIZE="2" COLOR="#000066"><SPAN STYLE="font-weight: 400">Contacting 
+                the water supplier to restore water service</SPAN></FONT>
+                </UL>
+                
+                
+                
+                </td>
+            <td width="22" height="105">&nbsp;</td>
+            <td width="310" valign="top" height="105">
+        <b>
+        <FONT FACE="Arial" SIZE="2" COLOR="#000066">LineCare<SUP>SM</SUP> is the EASY solution!</FONT></b><SPAN STYLE="font-weight: 400"><FONT FACE="Arial" COLOR="#000066"><UL>
+            <LI>&nbsp;</FONT><FONT FACE="Arial" SIZE="2" COLOR="#000066">Simple and affordable</FONT><FONT FACE="Arial" COLOR="#000066"><LI>&nbsp;</FONT><FONT FACE="Arial" SIZE="2" COLOR="#000066">Just $5 a month (plus tax)</FONT><FONT FACE="Arial" COLOR="#000066"><LI>&nbsp;</FONT><FONT FACE="Arial" SIZE="2" COLOR="#000066">Prompt, professional 
+            service</FONT><FONT FACE="Arial" COLOR="#000066"><LI>&nbsp;</FONT><FONT FACE="Arial" SIZE="2" COLOR="#000066">Easy payment</FONT><FONT FACE="Arial" COLOR="#000066"><LI>&nbsp;</FONT><FONT FACE="Arial" SIZE="2" COLOR="#000066">Authorized, licensed plumbers</FONT><FONT FACE="Arial" COLOR="#000066"><LI>&nbsp;</FONT><FONT FACE="Arial" SIZE="2" COLOR="#000066">Peace of mind</FONT></SPAN></p></UL>
+        <p>
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066">
+            <B>How the Program Works…One Call Brings Peace of Mind</B><BR>
+            <SPAN STYLE="font-weight: 400">If you spot a problem with your service line or shut-off valve, call 
+            us at (732) 634-1500 to report the situation day or night.<BR>
+            </SPAN>
+            <BR>
+                <b>Here’s How You Benefit from LineCare<SUP>SM:</SUP></b></FONT></p>
+        <p><UL>
+             <LI>   <FONT FACE="Arial" SIZE="2" COLOR="#000066">
+            Our representative will be at your home within 8 hours to assess 
+            the problem.</FONT><LI><FONT FACE="Arial" SIZE="2" COLOR="#000066">If 
+            necessary, we will arrange for an alternate source of water to be 
+            provided to your premises until the repair is
+            made.</FONT><SPAN STYLE="font-weight: 400"><LI><FONT FACE="Arial" COLOR="#000066">
+            &nbsp;</FONT></SPAN><FONT FACE="Arial" SIZE="2" COLOR="#000066">We will send a qualified professional contractor to locate the 
+            leak and dig up the service line.</FONT><LI><FONT FACE="Arial" SIZE="2" COLOR="#000066">A licensed professional will repair or replace the line.</FONT><BR>
+             <LI><FONT FACE="Arial" SIZE="2" COLOR="#000066">We will restore your sidewalk or lawn.</FONT><FONT COLOR="#000066"></LI></FONT></UL></td>
+          </tr>
+          <tr>
+            <td width="635" valign="top" height="16" colspan="3"><p>
+            <p>
+                        
+			
+			<H4><FONT FACE="Arial" SIZE="2" COLOR="#000066">
+            You make the call. We do the work. NO hassles, NO worries, NO 
+            inflated costs!<BR>
+            <SPAN STYLE="font-weight: 400">
+            <A HREF="#terms">Apply Online Now</A> or call us at (732) 634-1500 to register.
+            </SPAN>
+            </FONT></H4>
+			
+			
+      <H4 ALIGN="left"><A NAME="terms"></A>
+      <FONT FACE="Arial" COLOR="#000066" SIZE="2">Please read the terms and 
+      conditions below and complete the application form <BR>
+      that follows:</FONT></H4>
+			
+      <H4 ALIGN="left">
+      <FONT FACE="Arial" SIZE="2" COLOR="#000066"><B>KEY TERMS AND CONDITIONS</B><BR>
+      LineCare<SUP>SM</SUP> <SPAN STYLE="font-weight: 400">is being offered by Utility Service Affiliates, Inc. (“USA” or 
+      the “Company”), a subsidiary of Middlesex Water Company (“Middlesex”).</SPAN><BR>
+      <B>COVERAGE</B> <SPAN STYLE="font-weight: 400">The</SPAN> LineCare<SUP>SM</SUP>
+      <SPAN STYLE="font-weight: 400">Water 
+      Service Line Maintenance Program (the “Plan”) covers all parts, material 
+      and labor required to repair or replace the water service line and 
+      customer shut-off valve (i.e. first inside shut-off valve). USA or its 
+      agents will determine whether to repair or replace any covered parts. 
+      Repair or replacement includes excavation, as required, in the area of 
+      repair or replacement. USA reserves the right to choose the materials 
+      and/or parts to be utilized; however, all such materials and/or parts, and 
+      all work performed, will comply with all relevant and applicable laws, 
+      regulations, codes and standards. Coverage also includes the cost of water 
+      service shut off/turn on by Middlesex and the restoration of sidewalks, 
+      paving and grass in areas disturbed by excavation.</SPAN><BR>
+      <B>EXCLUSIONS</B> <SPAN STYLE="font-weight: 400">Coverage is limited to 
+      the service line from the curb box to the customer's shut-off valve as shown 
+      on the diagram set out on this application form. Coverage does not include 
+      any parts not specifically identified as covered. Items such as 
+      pressure-reducing valves, booster pumps, lawn and/or fire sprinkler 
+      systems, meter pits, landscaping and decorative stones are not included in 
+      Plan coverage. The Plan does not cover repair of any leaks inside the 
+      premises beyond (downstream) of the customer’s shut-off valve. The Plan 
+      does not cover the repair and replacement of any finished or unfinished 
+      walls or surfaces which must be removed or opened in order to access and 
+      repair the service line inside the premises. The Plan does not cover 
+      pre-existing damages, relocation or alteration of existing water service 
+      lines, repairs and/or replacement of parts damaged directly or indirectly 
+      as a result of you or any other party working or excavating on your 
+      property or in the vicinity of the water service line or its associated 
+      parts. The Plan does not cover damages caused by earthquake, hurricane, 
+      landslide, natural disaster, civil disobedience, riot or war. The Plan 
+      does not cover improperly installed pipes and appurtenances.</SPAN><BR>
+      <B>ELIGIBILITY</B> <SPAN STYLE="font-weight: 400">To be eligible for 
+      coverage, you must own or have a written legal responsibility and 
+      authority to provide maintenance for the covered water service line (and 
+      associated parts) which serves a residential dwelling served by Middlesex 
+      Water Company. The covered service line can be no greater than 1-1/2 
+      inches in diameter and must
+      conform to applicable plumbing codes. USA reserves the right to deny Plan 
+      coverage for any reason. Separate Plan coverage is required for each 
+      additional service connection and/or service line at a premises. Plans are 
+      not transferable.</SPAN><BR>
+      <B>BEGINNING OF COVERAGE AND BILLING</B> <SPAN STYLE="font-weight: 400">Coverage begins on the date of the first quarterly bill following the 
+      processing of your application. Prior to such acceptance, the Company 
+      reserves the right to make an on-site inspection of your service line and 
+      associated parts to ensure that they are in proper operating condition 
+      before accepting any responsibility under the Plan. Each subsequent bill 
+      will include your monthly charges in advance. The initial term of service 
+      shall be one year. After the first year, the term of service shall be 
+      three months with payment in advance. The program will be automatically 
+      renewed unless terminated by you or the Company.</SPAN><BR>
+      <B>CANCELLATION/TERMINATION</B> <SPAN STYLE="font-weight: 400">You may 
+      cancel this Maintenance Plan at any time by notifying USA in writing at 
+      1500 Ronson Road, Iselin, New Jersey 08830. 
+      Coverage will continue until the end of the period for which you have 
+      paid. The Company may also terminate this Maintenance Plan for non-payment
+      of the fee and reserves the right to terminate this Maintenance Plan if 
+      USA determines that:</SPAN></FONT></H4>
+			
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber4">
+              <tr>
+                <td width="3%"><font face="Arial" size="2" color="#000066">1<SPAN STYLE="font-weight: 400">) </SPAN>
+                </font></td>
+                <td width="97%">
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066"> <SPAN STYLE="font-weight: 400">
+                the service line or its associated parts do not conform to applicable 
+      plumbing codes;</SPAN></FONT></td>
+              </tr>
+              <tr>
+                <td width="3%"><font face="Arial" size="2" color="#000066">2<SPAN STYLE="font-weight: 400">) </SPAN>
+                </font></td>
+                <td width="97%">
+                
+      <FONT FACE="Arial" SIZE="2" COLOR="#000066"> <SPAN STYLE="font-weight: 400">there are unsafe working conditions at the site;</SPAN></FONT>
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066"> <SPAN STYLE="font-weight: 400">
+                the property owner does not allow or permit the servicing or</SPAN></FONT></td>
+              </tr>
+              <tr>
+                <td width="3%"><font face="Arial" size="2" color="#000066">3<SPAN STYLE="font-weight: 400">) </SPAN>
+                </font></td>
+                <td width="97%">
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066"> <SPAN STYLE="font-weight: 400">
+                replacement of any parts necessary to maintain the parts covered.</SPAN></FONT></td>
+              </tr>
+            </table>
+			
+      <H4 ALIGN="left">
+      <FONT FACE="Arial" SIZE="2" COLOR="#000066"> 
+      <B>LIMITATIONS</B> <SPAN STYLE="font-weight: 400">USA will not be liable 
+      for any incidental or consequential damages, including water damage caused 
+      by leaks. USA will not be liable for any damages caused to you or your 
+      property unless such damage is the direct result of negligence of USA or 
+      its agents. All work in relation to the Plan must be performed by USA or 
+      its authorized contractor. The Plan will not pay for any labor or parts 
+      costs for repair or replacement of any covered items performed
+      by any unauthorized parties.</SPAN><BR>
+      <B>SERVICE CALLS</B> <SPAN STYLE="font-weight: 400">USA will have a 
+      representative contact you within 8 hours of your report that a repair is 
+      necessary and will schedule the repair with you. USA will endeavor to 
+      perform repairs and replacements promptly. USA will not be responsible for 
+      delays beyond its reasonable control. If you report that an emergency 
+      repair is necessary because you are out of water or a leak is causing 
+      other emergency problems, USA will arrange to begin the repair within 24 
+      hours of your call or provide you with an alternative source of water 
+      until the repair is made.</SPAN><BR>
+      <B>CHANGES IN MONTHLY CHARGES, TERMS AND CONDITIONS</B>
+      <SPAN STYLE="font-weight: 400">The charges for this Plan, and any other terms and conditions applicable 
+      to this Plan, may be changed by USA at any time upon at least 30 days 
+      prior written notice (which may be in the form of a bill insert or other 
+      written notification). The payment of applicable charges by the customer, 
+      or a request for service under the Plan, after receiving such notice of a 
+      change in the charges or other terms and conditions will be deemed to be 
+      assent by the customer to the change(s) in the charges, terms or 
+      conditions. If the customer does not wish to continue with LineCare<SUP>SM</SUP> 
+      under such revised charges, terms or conditions, the customer may simply 
+      terminate participation under the Plan at any time upon written notice to USA.</SPAN><BR>
+      <B>LIMITATION OF LIABILITY</B> <SPAN STYLE="font-weight: 400">The 
+      liability, if any, of USA, its affiliated companies, their employees, 
+      agents and contractors to the customer or to any other person for damages 
+      resulting from the provision of or failure to provide service under this 
+      Plan, or from any fault, failure, defect or deficiency in any service, 
+      labor, material, work or product
+      furnished in connection with this Plan, shall be limited to an amount not 
+      to exceed $5,000.00. In no event, however, shall USA, its affiliated 
+      companies, their employees, agents and contractors have any liability for 
+      special, indirect, incidental or consequential damages resulting from the 
+      provision of or failure to provide service under this Plan, or from any 
+      fault, failure, defect or deficiency in any service, labor, material, work 
+      or product furnished in connection with this Plan. These limitations of 
+      and exclusions from liability shall apply regardless of whether a claim or 
+      remedy is sought in contract, tort (including negligence and strict 
+      liability) or otherwise.</SPAN></FONT></H4>
+			
+      <P ALIGN="left"><B><FONT FACE="Arial" SIZE="2" COLOR="#000066">TO TAKE 
+      ADVANTAGE OF THIS VALUABLE PROGRAM, PLEASE FILL OUT THE FORM BELOW.<BR>
+Fields marked with an * are required!</FONT></B></P>
+		    
+
+<FORM ACTION="http://oak.he.net/cgi-bin/cgiemail/~mswater/eTemplate2TEST.txt" METHOD="POST" ENCTYPE="application/x-www-form-urlencoded" onSubmit="return checkrequired(this)" 
+NAME="Contact form">
+<P><INPUT TYPE="HIDDEN" NAME="success" SIZE="-1" VALUE="http://www.middlesexwater.com/hirez/formok.htm">
+              	
+      <P ALIGN="left">&nbsp;</P>
+		    <TABLE BORDER="0" CELLSPACING="1" STYLE="border-collapse: collapse" BORDERCOLOR="#111111" WIDTH="100%" ID="AutoNumber1" HEIGHT="218">
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066">Name*</FONT></TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <INPUT NAME="requiredName" SIZE="30" STYLE="float: right"><BR></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066">Address*</FONT></TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <INPUT NAME="requiredAddress" SIZE="30" STYLE="float: right"><BR></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066">City*</FONT></TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <INPUT NAME="requiredCity" SIZE="30" STYLE="float: right"><BR></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <TABLE BORDER="0" CELLSPACING="0" STYLE="border-collapse: collapse" BORDERCOLOR="#111111" WIDTH="100%" ID="AutoNumber3" CELLPADDING="0">
+                  <TR>
+                    <TD WIDTH="50%">
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066">State*</FONT><BR></TD>
+                    <TD WIDTH="50%">
+                    </TD>
+                    <TD WIDTH="50%">&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+                  </TR>
+                </TABLE>
+                </TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <TABLE BORDER="0" CELLSPACING="0" STYLE="border-collapse: collapse" BORDERCOLOR="#111111" WIDTH="100%" ID="AutoNumber2" CELLPADDING="0">
+                  <TR>
+                    <TD WIDTH="25%">
+                    <P ALIGN="left">
+                    <INPUT NAME="requiredState" SIZE="2" STYLE="float: left"></TD>
+                    <TD WIDTH="75%">
+                <P ALIGN="center">
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066">Zip* </FONT></TD>
+                    <TD WIDTH="50%">
+                    <INPUT NAME="requiredZip" SIZE="5" STYLE="float: right"><BR></TD>
+                  </TR>
+                </TABLE>
+                </TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="8"></TD>
+                <TD WIDTH="21%" HEIGHT="8">
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066">Daytime Phone*</FONT></TD>
+                <TD WIDTH="23%" HEIGHT="8">
+                <INPUT NAME="requiredPhone" SIZE="30" STYLE="float: right"><BR></TD>
+                <TD WIDTH="51%" HEIGHT="8"></TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066">Evening Phone</FONT></TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <INPUT NAME="nightPhone" SIZE="30" STYLE="float: right"><BR></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066">Fax Number</FONT></TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <INPUT NAME="fax" SIZE="30" STYLE="float: right"><BR></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066">Email</FONT></TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <INPUT NAME="email" SIZE="30" STYLE="float: right"></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066">Account Number</FONT></TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <INPUT NAME="Account" SIZE="30" STYLE="float: right"><BR></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19">
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066">Referred by</FONT></TD>
+                <TD WIDTH="23%" HEIGHT="19">
+                <INPUT NAME="Referral" SIZE="30" STYLE="float: right"><BR></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="19%" HEIGHT="19" COLSPAN="3">&nbsp;</TD>
+                <TD WIDTH="25%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="19%" HEIGHT="19" COLSPAN="3">
+                <P CLASS="MsoNormal">
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066">Click the 
+                following Checkbox to complete your registration and click 
+                Submit to send.</FONT><BR>
+                <FONT FACE="Arial" SIZE="2" COLOR="#000066">
+                <INPUT TYPE="checkbox" NAME="requiredAgreement" VALUE="ON"> *I have read and 
+                understand the terms set forth in the LineCare<SUP>SM</SUP> Service 
+                contract.&nbsp; By submitting my information, via this form, I am 
+                agreeing to register for the LineCare<SUP>SM</SUP> Program, subject to a 
+                service line inspection.&nbsp; I understand I will be contacted by a 
+                Customer Service representative to schedule the service line 
+                inspection.&nbsp; I understand that charges for the LineCare<SUP>SM</SUP> program 
+                of $5 per month, plus tax, will appear on my quarterly water 
+                bill.</FONT></TD>
+                <TD WIDTH="25%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19" VALIGN="bottom">&nbsp;</TD>
+                <TD WIDTH="23%" HEIGHT="19" VALIGN="bottom">&nbsp;</TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="5%" HEIGHT="19">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="19" VALIGN="bottom"><P ALIGN="left">
+                <INPUT TYPE="submit" VALUE="Submit" NAME="B1" STYLE="float: right"></P></TD>
+                <TD WIDTH="23%" HEIGHT="19" VALIGN="bottom"><INPUT TYPE="reset" VALUE="Reset" NAME="B2"></TD>
+                <TD WIDTH="51%" HEIGHT="19">&nbsp;</TD>
+              </TR>
+            </TABLE>
+                        </FORM>
+
+
+</td>
+            </td>
+          </tr>
+        </table>        </td>
+        <td width="25">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="15">&nbsp;</td>
+        <td width="88%">
+        <p>
+        <FONT SIZE="2" COLOR="#000066" FACE="arial, helvetica"><br></FONT><font face="arial, helvetica" size="2">
+        <a href="customerService.htm">Contact Numbers</a></font><font face="arial, helvetica" color="#000066" size="2"> 
+        | </font><font face="arial, helvetica" size="2"><a href="rates.htm">
+        Rates</a></font><font face="arial, helvetica" color="#000066" size="2"> 
+        | </font><font face="arial, helvetica" size="2"><a href="tips.htm">Tips
+        </a></font><font face="arial, helvetica" color="#000066" size="2">&nbsp;|
+        </font><font face="arial, helvetica" size="2">
+        <a onclick="window.open('../sharedFiles/tariffPopUp.html','Disclaimer','width=500,height=200,scrollbars=no')" href="#">
+        Tariff</a><font face="arial, helvetica" color="#000066" size="2"> |
+        </font><a href="lineCare.htm">LineCare Service Line Maintenance Plan</a></font><br>
+&nbsp;</td>
+        <td width="25">&nbsp;</td>
+      </tr>
+    </table>
+    </td>
+    <td width="36" height="100%">
+    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="36" id="AutoNumber4" height="100%">
+  <tr>
+    <td width="2"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="1" bgcolor="#C0C0C0"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="1" bgcolor="#808080"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="1" bgcolor="#406F8D"><img src="images/empty.gif" width="1" height="1"></td>
+    <td width="31" bgcolor="#005E9A"><img src="images/empty.gif" width="1" height="1"></td>
+  </tr>
+</table>
+ </td>
+  </tr>
+  <tr>
+    <td width="34" colspan="3">
+    
+    <!-- ImageReady Slices (waves800v8Buttom.psd) -->
+<TABLE WIDTH=800 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=9>
+			<IMG SRC="images/links_01.gif" WIDTH=800 HEIGHT=12></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/links_02.gif" WIDTH=133 HEIGHT=23></TD>
+		<TD>
+			<A HREF="aboutUs.htm"
+				ONMOUSEOVER="changeImages('links_03', 'images/links_03-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('links_03', 'images/links_03.gif'); return true;">
+				<IMG NAME="links_03" SRC="images/links_03.gif" WIDTH=57 HEIGHT=17 BORDER=0></A></TD>
+		<TD>
+			<A HREF="news.htm"
+				ONMOUSEOVER="changeImages('links_04', 'images/links_04-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('links_04', 'images/links_04.gif'); return true;">
+				<IMG NAME="links_04" SRC="images/links_04.gif" WIDTH=43 HEIGHT=17 BORDER=0></A></TD>
+		<TD>
+			<A HREF="customerService.htm"
+				ONMOUSEOVER="changeImages('links_05', 'images/links_05-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('links_05', 'images/links_05.gif'); return true;">
+				<IMG NAME="links_05" SRC="images/links_05.gif" WIDTH=104 HEIGHT=17 BORDER=0></A></TD>
+		<TD>
+			<A HREF="shareholderInfo.htm"
+				ONMOUSEOVER="changeImages('links_06', 'images/links_06-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('links_06', 'images/links_06.gif'); return true;">
+				<IMG NAME="links_06" SRC="images/links_06.gif" WIDTH=102 HEIGHT=17 BORDER=0></A></TD>
+		<TD>
+			<A HREF="waterQuality.htm"
+				ONMOUSEOVER="changeImages('links_07', 'images/links_07-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('links_07', 'images/links_07.gif'); return true;">
+				<IMG NAME="links_07" SRC="images/links_07.gif" WIDTH=88 HEIGHT=17 BORDER=0></A></TD>
+		<TD>
+			<A HREF="aboutH2o.htm"
+				ONMOUSEOVER="changeImages('links_08', 'images/links_08-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('links_08', 'images/links_08.gif'); return true;">
+				<IMG NAME="links_08" SRC="images/links_08.gif" WIDTH=73 HEIGHT=17 BORDER=0></A></TD>
+		<TD>
+			<A HREF="contactUs.htm"
+				ONMOUSEOVER="changeImages('links_09', 'images/links_09-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('links_09', 'images/links_09.gif'); return true;">
+				<IMG NAME="links_09" SRC="images/links_09.gif" WIDTH=71 HEIGHT=17 BORDER=0></A></TD>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/links_10.gif" WIDTH=129 HEIGHT=23></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=7>
+			<IMG SRC="images/links_11.gif" WIDTH=538 HEIGHT=6></TD>
+	</TR>
+</TABLE>
+<!-- End ImageReady Slices -->
+    
+    </td>
+  </tr>
+</table>
+<MAP NAME="menu_01_Map">
+<AREA SHAPE="rect" ALT="Go to MWC Homepage" COORDS="75,11,222,81" HREF="index.htm">
+</MAP>
+<!-- End ImageReady Slices -->
+
+</body>
+
+</html>
